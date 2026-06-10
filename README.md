@@ -8,13 +8,15 @@ The platform transforms everyday lifestyle choices into meaningful environmental
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Demo
 
-Coming Soon
+### Deployed Application
+
+https://carbonlens-ai.vercel.app
 
 ---
 
-## 📖 Project Overview
+# 📖 Project Overview
 
 CarbonLens AI analyzes a user's lifestyle habits across key emission categories and generates:
 
@@ -30,9 +32,137 @@ The platform is designed to make environmental awareness simple, interactive, an
 
 ---
 
-## ✨ Features
+# 🎯 Chosen Vertical
 
-### 🧮 Carbon Footprint Calculator
+### Sustainability & Climate Awareness
+
+CarbonLens AI is built within the Sustainability & Climate Awareness domain to help individuals understand the environmental impact of their daily lifestyle choices and encourage sustainable behavior through data-driven insights and interactive experiences.
+
+---
+
+# ❗ Problem Statement
+
+Many people want to live sustainably but struggle to understand how their daily activities contribute to carbon emissions.
+
+Without clear visibility into their environmental impact, it becomes difficult to make informed decisions that reduce carbon footprints.
+
+CarbonLens AI addresses this challenge by providing:
+
+* Carbon footprint measurement
+* Personalized sustainability recommendations
+* Impact simulations
+* Habit-building eco challenges
+* Environmental awareness through actionable insights
+
+---
+
+# 🧠 Approach & Logic
+
+The application collects user lifestyle information across four major carbon emission categories:
+
+### 🚗 Transportation
+
+Travel habits and vehicle usage.
+
+### ⚡ Energy Consumption
+
+Household electricity and energy usage.
+
+### 🍽 Food Habits
+
+Dietary choices and food consumption patterns.
+
+### ♻ Waste Management
+
+Recycling and waste disposal behaviors.
+
+The collected inputs are processed to:
+
+1. Calculate estimated annual carbon emissions.
+2. Generate an Eco Score.
+3. Identify the highest contributing emission source.
+4. Recommend personalized sustainability actions.
+5. Simulate future carbon reduction scenarios.
+6. Encourage behavioral change through weekly challenges.
+
+---
+
+# ⚙️ How The Solution Works
+
+## Step 1: Carbon Footprint Assessment
+
+Users enter information about:
+
+* Transportation habits
+* Energy usage
+* Food consumption
+* Waste management practices
+
+---
+
+## Step 2: Intelligent Analysis
+
+CarbonLens AI processes the data and calculates:
+
+* Estimated Carbon Footprint
+* Sustainability Score
+* Emission Breakdown
+* Largest Emission Source
+
+---
+
+## Step 3: Personalized Recommendations
+
+The platform generates targeted recommendations based on the user's highest emission category.
+
+Examples include:
+
+* Energy-saving actions
+* Sustainable transportation suggestions
+* Eco-friendly dietary choices
+* Waste reduction strategies
+
+---
+
+## Step 4: Impact Simulation
+
+Users can experiment with sustainability improvements and instantly view:
+
+* Potential carbon reduction
+* Projected footprint
+* Emission savings
+* Future eco score
+
+---
+
+## Step 5: Weekly Eco Challenges
+
+Users participate in sustainability-focused challenges such as:
+
+* Walking instead of driving
+* Meat-free days
+* Reducing electricity consumption
+* Recycling household waste
+
+These challenges encourage long-term sustainable habits.
+
+---
+
+## Step 6: Sustainability Success Dashboard
+
+The final success screen presents:
+
+* Eco Score Summary
+* Carbon Footprint Overview
+* Global Comparison
+* Sustainability Achievements
+* Environmental Impact Insights
+
+---
+
+# ✨ Features
+
+## 🧮 Carbon Footprint Calculator
 
 Calculate annual carbon emissions based on:
 
@@ -43,7 +173,7 @@ Calculate annual carbon emissions based on:
 
 ---
 
-### 📊 Eco Score Dashboard
+## 📊 Eco Score Dashboard
 
 Visual insights including:
 
@@ -55,20 +185,13 @@ Visual insights including:
 
 ---
 
-### 🎯 Personalized Recommendations
+## 🎯 Personalized Recommendations
 
 Receive customized sustainability recommendations based on your highest carbon-emitting category.
 
-Examples:
-
-* Energy-saving actions
-* Sustainable transport suggestions
-* Eco-friendly food habits
-* Waste reduction strategies
-
 ---
 
-### 🔬 Carbon Impact Simulator
+## 🔬 Carbon Impact Simulator
 
 Experiment with lifestyle changes and instantly visualize:
 
@@ -79,54 +202,47 @@ Experiment with lifestyle changes and instantly visualize:
 
 ---
 
-### 🏆 Weekly Eco Challenges
+## 🏆 Weekly Eco Challenges
 
-Gamified sustainability challenges including:
-
-* Walking instead of driving
-* Meat-free days
-* Reducing electricity usage
-* Recycling household waste
-
-Users earn eco points and build sustainable habits.
+Gamified sustainability challenges designed to encourage positive environmental habits.
 
 ---
 
-### 🎉 Success & Achievement Tracking
+## 🎉 Success & Achievement Tracking
 
-Celebrate environmental achievements with:
+Celebrate environmental achievements through:
 
-* Sustainability summary
+* Sustainability summaries
+* Eco scores
 * Impact statistics
-* Eco score review
 * Environmental contribution insights
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 * React.js
 * Vite
 * JavaScript (ES6+)
 
-### Styling
+## Styling
 
 * CSS3
 * Responsive Design
 * Glassmorphism UI
-* Modern SaaS Design System
+* Modern SaaS Design
 
-### Development Tools
+## Development Tools
 
 * Git
 * GitHub
-* Netlify
+* Vercel
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 src/
@@ -144,16 +260,68 @@ src/
 │   └── recommendations.js
 │
 ├── utils/
-│   └── calculator.js
+│   ├── calculator.js
+│   └── simulator.js
 │
 ├── App.jsx
 ├── App.css
+├── index.css
 └── main.jsx
 ```
 
 ---
 
-## 🌍 Sustainability Impact
+# 📌 Assumptions
+
+* Carbon emission values are estimated using generalized emission factors.
+* User-provided information is assumed to be accurate.
+* Global comparison values represent average estimates and may vary across countries and regions.
+* The application is intended for educational and sustainability awareness purposes.
+
+---
+
+# 🧪 Testing
+
+The application was manually tested across all primary user flows:
+
+### Tested Features
+
+* Carbon footprint calculation
+* Dashboard rendering
+* Recommendation generation
+* Carbon simulator functionality
+* Weekly challenge navigation
+* Success page rendering
+* Responsive layout behavior
+
+All core functionalities performed as expected.
+
+---
+
+# 🔒 Security Considerations
+
+* No sensitive user information is collected.
+* No authentication credentials are stored.
+* No third-party APIs process user data.
+* All calculations are performed client-side.
+* User inputs remain within the browser session.
+
+---
+
+# ♿ Accessibility
+
+CarbonLens AI incorporates accessibility-focused design principles:
+
+* Responsive desktop and mobile layouts
+* Clear visual hierarchy
+* Readable typography
+* Consistent navigation structure
+* High-contrast interface components
+* User-friendly interaction patterns
+
+---
+
+# 🌍 Sustainability Impact
 
 CarbonLens AI promotes environmental awareness by helping users:
 
@@ -165,18 +333,31 @@ CarbonLens AI promotes environmental awareness by helping users:
 
 ---
 
-## 🎯 Future Enhancements
+# 🚀 Future Enhancements
 
 * AI-powered recommendation engine
+* Personalized sustainability roadmap
 * User authentication
 * Progress tracking dashboard
 * Community sustainability leaderboard
-* Carbon offset suggestions
+* Carbon offset recommendations
 * Real-time emissions analytics
 
 ---
 
-## 👩‍💻 Author
+# 🌐 Deployment
+
+### Live Application
+
+https://carbonlens-ai.vercel.app
+
+### GitHub Repository
+
+https://github.com/snehaseveriya23/carbonlens-ai
+
+---
+
+# 👩‍💻 Author
 
 **Sneha Severiya**
 
@@ -186,6 +367,6 @@ Passionate about AI, Data Science, Sustainability, and building impactful techno
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is developed for educational, innovation, and sustainability awareness purposes.
