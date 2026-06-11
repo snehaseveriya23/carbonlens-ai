@@ -332,6 +332,61 @@ CarbonLens AI promotes environmental awareness by helping users:
 * Contribute toward a cleaner future
 
 ---
+## 🧪 Testing
+
+### Manual Testing
+
+The application was manually tested across all major user flows and components.
+
+| Feature           | Test Scenario                                          | Result   |
+| ----------------- | ------------------------------------------------------ | -------- |
+| Carbon Calculator | Enter valid lifestyle inputs                           | ✅ Passed |
+| Carbon Calculator | Verify annual footprint calculations                   | ✅ Passed |
+| Dashboard         | Display Eco Score correctly                            | ✅ Passed |
+| Dashboard         | Display highest emission source                        | ✅ Passed |
+| Recommendations   | Generate category-specific suggestions                 | ✅ Passed |
+| Simulator         | Apply sustainability actions and recalculate emissions | ✅ Passed |
+| Weekly Challenges | Display challenge cards correctly                      | ✅ Passed |
+| Weekly Challenges | Complete challenge workflow                            | ✅ Passed |
+| Success Page      | Display sustainability summary                         | ✅ Passed |
+| Navigation        | Verify screen transitions between modules              | ✅ Passed |
+| Responsive Design | Tested on desktop and mobile screen sizes              | ✅ Passed |
+
+### Input Validation Testing
+
+| Validation Case                              | Result   |
+| -------------------------------------------- | -------- |
+| Empty inputs handled gracefully              | ✅ Passed |
+| Numeric fields accept valid values           | ✅ Passed |
+| Calculator prevents application crashes      | ✅ Passed |
+| Simulator handles multiple updates correctly | ✅ Passed |
+
+### End-to-End User Flow
+
+1. User enters lifestyle information.
+2. Carbon footprint is calculated.
+3. Dashboard visualizes sustainability metrics.
+4. Personalized recommendations are generated.
+5. User explores carbon reduction scenarios through the simulator.
+6. Weekly challenges encourage sustainable habits.
+7. Success page summarizes the sustainability journey.
+
+All application flows were verified successfully during testing.
+
+### Browser Testing
+
+The application was tested on:
+
+* Google Chrome
+* Microsoft Edge
+
+### Performance Verification
+
+* Fast page rendering using React + Vite.
+* Optimized component structure.
+* Responsive UI across multiple screen sizes.
+* Smooth navigation between application modules.
+
 
 # 🚀 Future Enhancements
 
